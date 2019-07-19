@@ -1,10 +1,29 @@
 {
-    "name": "pcosta/ep01",
+    "name": "johnatanlima/phptips-project",
+    "description": "Conhecendo arquivo composer e outras configurações",
+    "minimum-stability": "stable",
+    "license": "MIT",
     "authors": [
         {
             "name": "Johnatan Lima",
-            "email": "joh23nathan@gmail.com"
+            "email": "joh23nathan@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/johnatanlima"
         }
     ],
-    "require": {}
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+
+        "files": [
+            "source/_Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer":"6.0.*"
+    }
 }
