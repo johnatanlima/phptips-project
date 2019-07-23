@@ -1,0 +1,29 @@
+{
+    "name": "johnatanlima/phptips-project",
+    "description": "Conhecendo intalação de novos componentes ao projeto.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johnatan Lima",
+            "email": "joh23nathan@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/johnatanlima"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+
+        "files": [
+            "source/_Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer":"1.1.*"
+    }
+}

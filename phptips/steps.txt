@@ -1,0 +1,9 @@
+    Primeiramente foram apresentados alguns comentários de como pode ser importante
+    aplicarmos alguns padrões de projetos e uma arquitetura que nos permite desen-
+    volver melhor nossos códigos e, dessa forma, escrever códigos para soluções de 
+    maneira muito mais flexível e inteligente. Um dos exemplos é utilizar uma forma
+    de desenvolvimento através de componentes. Serão listados abaixo alguns deles:
+
+        -> Composer e suas configurações e importância dentro de um projeto php. 
+
+     
