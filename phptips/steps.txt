@@ -4,6 +4,13 @@
     maneira muito mais flexível e inteligente. Um dos exemplos é utilizar uma forma
     de desenvolvimento através de componentes. Serão listados abaixo alguns deles:
 
-        -> Composer e suas configurações e importância dentro de um projeto php. 
+        -> Composer e suas configurações e importância dentro de um projeto php.
+ 
+        -> Utilização de configuraração do componente Coffecode/Datalayer para 
+            realizar a abstração de acesso a diversos bancos de dados. A configura-
+            ção de será realizada no file _Config.php e proverá para todo o contex-
+            to da aplicação. Em seguida, no dir examples conterá os classes e imple-
+            mentações para serem utilizadas na aplicação. O dir source/ é quem vai 
+            organizar as classes que serão usadas no domínio da aplicação. 
+            
 
-     
